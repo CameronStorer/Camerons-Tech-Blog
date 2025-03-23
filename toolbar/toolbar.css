@@ -1,0 +1,102 @@
+:root {
+
+        --darkOfLogo: rgb(4,68,118);
+        --LightOfLogo: rgb(179,217,225);
+        --pageBackground: rgb(235, 254, 255);
+        --toolbarBackground: rgb(0, 153, 255);
+    
+    }
+
+img[alt="LOGO"] {       /* LOGO Attributes */
+        width: 90%;
+        align-self:left;
+        vertical-align: center;
+      }
+
+button {        /* describe a button */
+        color: var(--pageBackground);
+        background-color: var(--darkOfLogo);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1vw;
+        height:95%;
+        border:0px;
+        margin:0px;
+}
+
+button:hover {          /* describe a button upon mouse hover */
+        color: var(--pageBackground);
+        background-color: rgb(6, 89, 153);
+        cursor: pointer;
+}
+
+
+.toolbarContainer {
+        /*display: flex;
+        justify-content: space-around;*/
+        justify-self: center;
+        height: 6%;
+        margin:0%;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap:5px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        align-items: center;
+
+        background-color: var(--toolbarBackground);
+        justify-content:space-between;
+
+}
+
+/* Mobile styles (max-width: 767px) */
+@media (max-width: 600px) {
+
+        img[alt="LOGO"] {       /* LOGO Attributes */
+                width: 75%;
+              }
+        
+        button {        /* describe a button */
+                height:90%;
+                font-size: 3vw;
+        }
+
+        .toolbarContainer {
+                height: 6%;
+                margin:0%;
+                padding-left: 5px;
+                padding-right: 5px;
+                margin-bottom: 20px;
+                column-gap:5px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+                column-gap:5px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                align-items: center;
+
+
+        
+        }
+
+        .mobile-only {
+                display: block;
+        }
+    
+        .desktop-only {
+            display: none;
+        }
+    }
+    
+    /* Desktop/Tablet styles (min-width: 768px) */
+    @media (min-width: 601px) {
+    
+    }
