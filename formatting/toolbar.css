@@ -1,25 +1,3 @@
-/* logo */
-img[alt="LOGO"] {
-        width: 90%;
-        align-self:left;
-        vertical-align: center;
-}
-/* button */
-button[alt="toolbar"]{        
-        color: var(--pageBackground);
-        background-color: var(--darkOfLogo);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1vw;
-        height:95%;
-        border:0px;
-        margin:0px;
-}
-/* button upon hover */
-button:hover[alt="toolbar"]{          
-        color: var(--pageBackground);
-        background-color: rgb(6, 89, 153);
-        cursor: pointer;
-}
 /* toolbar container */
 .toolbarContainer {
         /* alignment */
@@ -45,21 +23,32 @@ button:hover[alt="toolbar"]{
         background-color: var(--toolbarBackground);
 
 }
+/* logo */
+img[alt="LOGO"] {
+        width: 90%;
+        align-self:left;
+        vertical-align: center;
+}
 
+/* button */
+button[alt="toolbar"]{        
+        color: var(--pageBackground);
+        background-color: var(--darkOfLogo);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1vw;
+        height:95%;
+        border:0px;
+        margin:0px;
+
+}
+/* button upon hover */
+button:hover[alt="toolbar"]{          
+        color: var(--pageBackground);
+        background-color: rgb(6, 89, 153);
+        cursor: pointer;
+}
 /* Mobile styles override */
 @media (max-width: 600px) {
-
-        img[alt="LOGO"] {
-                width: 75%;
-                align-self: center;
-        }
-        
-        button[alt="toolbar"]{
-                height:90%;
-                font-size: 3vw;
-                padding-top:1%;
-                padding-bottom:1%;
-        }
 
         .toolbarContainer {
                 margin:0%;
@@ -70,17 +59,33 @@ button:hover[alt="toolbar"]{
                 padding-bottom: 5px;
                 padding-top: 5px;
 
-                height:50vw;
+                height:45vw;
 
                 display: grid;
                 grid-template-columns: 1fr;
-                grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
                 column-gap:5px;
                 padding-bottom: 5px;
                 padding-top: 5px;
                 align-items: center;
         
         }
+        img[alt="LOGO"] {
+                width:100%;
+        }
+        a[alt="logo"]{
+                justify-self: center;
+                width:50%;
+
+        }
+        button[alt="toolbar"]{
+                height:90%;
+                font-size: 3vw;
+                padding-top:1%;
+                padding-bottom:1%;
+        }
+
+
 
         .mobile-only {
                 display: block;

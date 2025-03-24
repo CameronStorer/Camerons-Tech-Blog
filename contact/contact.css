@@ -2,6 +2,7 @@
     /* alignment */
     justify-self: center;
     justify-content:center;
+    align-content:center;
     justify-items:center;
     align-items: center;
 
@@ -23,14 +24,14 @@
 
 a[alt=social]{
     display:inline-block;
-    width: 16w;
-    height:16vw;
+    width: 16.1vw;
+    height:16.1vw;
     margin: 2vw;
 }
 
 img[alt="social"] {
-    width:16vw;
-    height:16vw;
+    width:16.1vw;
+    height:16.1vw;
     user-select: none;
 }
 
@@ -38,14 +39,14 @@ img[alt="social"] {
 @media (max-width: 600px) {
 
     img[alt="social"] {
-        width:15.5vw;
-        height:15.5w;
+        width:15.4vw;
+        height:15.4w;
     }
 
     a[alt=social]{
         display:inline-block;
-        width:15.5w;
-        height:15.5vw;
+        width:15.4vw;
+        height:15.4vw;
 
     }
 
