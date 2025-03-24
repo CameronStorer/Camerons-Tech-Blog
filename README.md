@@ -14,7 +14,7 @@ This site serves a place for my creativity to thrive and for me to share things 
 - donate
 
 Future Plans:
-    - more use of **javascript**
-        - **React** library
-    - add **animations**
+- more use **javascript**
+- **React** library
+- add **animations**
 
