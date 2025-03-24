@@ -1,14 +1,22 @@
-# website
+# Blogsite
 
-This website was created for the sole purpose of expanding my knowledge in the areas of css, javascript, html, and other website formatting/hosting/upkeep areas
+This site serves a place for my creativity to thrive and for me to share things that I am passionate about
+
+## **Purpose**
+- expanding my knowledge in the areas of **css**, **javascript**, **html**, and other website **formatting**/**hosting**/**upkeep*** areas
+
+---
+
+## **Sub Pages:**
+    - about
+    - blog
+    - contact
+    - donate
+
+---
 
 Future Plans:
     - more use of javascript
         - React library
     - add animations
 
-There are the sub pages:
-    - about
-    - blog
-    - contact
-    - donate
