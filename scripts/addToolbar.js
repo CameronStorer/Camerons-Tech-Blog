@@ -1,5 +1,4 @@
-
-// This script adds the toolbar to the webpage
+// This script adds the toolbar button functionality
 
 // javascript to add button functionality
     // define possible button id's:

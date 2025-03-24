@@ -57,6 +57,8 @@ button:hover {
         button {
                 height:90%;
                 font-size: 3vw;
+                padding-top:1%;
+                padding-bottom:1%;
         }
 
         .toolbarContainer {

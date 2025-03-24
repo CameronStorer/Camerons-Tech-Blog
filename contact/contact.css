@@ -1,0 +1,31 @@
+.socialContainer {
+    /* display:grid;
+    grid-template-columns: fr1 fr1 fr1; */
+    display:grid;
+    grid-template-columns: fr1 fr1;
+    column-width:2%;
+    /* align-items:center;
+    justify-items:center;
+    justify-content:center; */
+
+
+
+    /* margin:0 auto;
+    margin: 2%;
+    background-color: var(--darkOfLogo);
+    border-radius: 6%;
+    border-style:groove;
+    /* border-style:dotted; */
+    /* border-color: var(--toolbarBackground);
+
+    border-width: 4px; */
+}
+
+img[alt="social"] {
+
+
+    transform:scale(50%);
+
+    margin:2%;
+    padding:0%;
+}
