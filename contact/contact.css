@@ -1,31 +1,64 @@
-.socialContainer {
-    /* display:grid;
-    grid-template-columns: fr1 fr1 fr1; */
-    display:grid;
-    grid-template-columns: fr1 fr1;
-    column-width:2%;
-    /* align-items:center;
+.socialContainer{
+    /* alignment */
+    justify-self: center;
+    justify-content:center;
     justify-items:center;
-    justify-content:center; */
+    align-items: center;
 
 
+    height:60vw;
 
-    /* margin:0 auto;
-    margin: 2%;
+    /* type of container */
+    display: -moz-grid-line;
+    padding: 1vw;
+    margin-left:28%;
+    margin-right:28%;
+
+    /* visuals */
     background-color: var(--darkOfLogo);
-    border-radius: 6%;
+    border-radius:6%;
     border-style:groove;
-    /* border-style:dotted; */
-    /* border-color: var(--toolbarBackground);
+    border-color: var(--toolbarBackground);
+}
 
-    border-width: 4px; */
+a[alt=social]{
+    display:inline-block;
+    width: 16w;
+    height:16vw;
+    margin: 2vw;
 }
 
 img[alt="social"] {
+    width:16vw;
+    height:16vw;
+    user-select: none;
+}
 
+/* Mobile styles override */
+@media (max-width: 600px) {
 
-    transform:scale(50%);
+    img[alt="social"] {
+        width:15.5vw;
+        height:15.5w;
+    }
 
-    margin:2%;
-    padding:0%;
+    a[alt=social]{
+        display:inline-block;
+        width:15.5w;
+        height:15.5vw;
+
+    }
+
+    .mobile-only {
+            display: block;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+}
+
+/* Desktop/Tablet styles override */
+@media (min-width: 601px) {
+
 }
