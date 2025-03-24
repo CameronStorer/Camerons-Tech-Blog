@@ -13,7 +13,7 @@ This site serves a place for my creativity to thrive and for me to share things 
 - contact
 - donate
 
-Future Plans:
+## Future Plans:
 - more use **javascript**
 - **React** library
 - add **animations**
