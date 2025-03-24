@@ -2,10 +2,10 @@
 
 This site serves a place for my creativity to thrive and for me to share things that I am passionate about
 
+---
+
 ## **Purpose**
 - expanding my knowledge in the areas of **css**, **javascript**, **html**, and other website **formatting**/**hosting**/**upkeep*** areas
-
----
 
 ## **Sub Pages:**
     - about
@@ -13,10 +13,8 @@ This site serves a place for my creativity to thrive and for me to share things 
     - contact
     - donate
 
----
-
 Future Plans:
-    - more use of javascript
-        - React library
-    - add animations
+    - more use of **javascript**
+        - **React** library
+    - add **animations**
 
