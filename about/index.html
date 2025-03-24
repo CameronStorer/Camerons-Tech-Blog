@@ -1,23 +1,36 @@
-<!-- This is the starting page for the website -->
-<!DOCTYPE html> <!-- Specify the type of document -->
-<html lang="en"> <!-- Specify the language of said document -->
+<!-- the website toolbar -->
+<!DOCTYPE html> <!-- html doc -->
+<html lang="en"> <!-- language -->
 
-<!-- This information pertains to the page's basic data -->
+<!-- basic page attributes -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cameron's Tech Journal</title>
-    <link rel="icon" href="../assets/icon.svg" type="image/svg">
+    <!-- page title and icon -->
+    <title>Cameron's Portfolio</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg">
+    <!-- import color scheme and toolbar formatting -->
+    <link rel="stylesheet" href="../formatting/colors.css">
+    <link rel="stylesheet" href="../formatting/toolbar.css">
     <link rel="stylesheet" href="../formatting/styles.css">
+    <!-- page specific formatting -->
     <link rel="stylesheet" href="about.css">
-    <script src="../scripts/include.js"></script>
+</head>
 
-</head><body>
+<body>
+    <!-- container to hold toolbar buttons -->
+    <div class = "toolbarContainer">
+            <!-- This img will act as a hyperlink-->
+            <a href="https://cameronstorer.com/about" target="_parent">
+            <img alt="LOGO" src="../assets/CTJLogo.svg"></a>
+            <button id="about" > About</button>
+            <button id="blog"> Blog</button>
+            <button id="contact"> Contact</button>
+            <button id="donate"> Buy Me A <br/> Coffee</button>
+            <script src="../scripts/addToolbar.js"></script>
+    </div>
 
-    <!-- TOOLBAR -->
-    <script src="../scripts/addToolbar.js"></script>
-    <link rel="stylesheet" href="../toolbar/toolbar.css">
-    <div id="addToolbar"></div>
+<!-- page content-->
 
 <h1>What's the Purpose?</h1>
 
@@ -30,6 +43,7 @@ more specifically on computers and programming.</p>
 
 <div class="aboutMeContainer">
     <img src="../assets/portrait.jpg" alt="portrait">
+
     <p alt="portrait" >Hi, I am Cameron Storer, a current sophomore studying Computer Science 
     at Louisiana Tech University. I've had a passion for programming and computers ever since I homebrewed
     my Nintendo 3DS and installed my first Minecraft mod. Today, I have an itch to crawl further and
@@ -41,13 +55,16 @@ more specifically on computers and programming.</p>
 <h1>How was this Created?</h1>
 
 <p>This site is made up entirely of the languages html and css with small amounts of javascript
-    included. It is currently hosted for free on Github Pages. The code editor of choice used
-    to code this site was VS Code and Gitbash was used to commit and push updates. The languages
-    needed were researched with help from Google's Gemini LLM.
-      </br></br></p>
-
-<p>If you enjoy my work, please consider <a href="https://cameronstorer.github.io/ctech/donate">donating</a>. Anything is appreciated and helps support my efforts.</p>
+included. It is currently hosted for free on Github Pages. The code editor of choice used
+to code this site was VS Code and Gitbash was used to commit and push updates. The languages
+needed were researched with help from Google's Gemini LLM.
+</p>
 
 <div class="spacer"></div>
 
-</body></html>
+<p>If you enjoy my work, please consider <a href="https://cameronstorer.com/donate">donating</a>. Anything is appreciated and helps support my efforts.</p>
+
+<div class="spacer"></div>
+
+</body>
+</html>

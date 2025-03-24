@@ -1,19 +1,11 @@
-:root {
-
-        --darkOfLogo: rgb(4,68,118);
-        --LightOfLogo: rgb(179,217,225);
-        --pageBackground: rgb(235, 254, 255);
-        --toolbarBackground: rgb(0, 153, 255);
-    
-    }
-
-img[alt="LOGO"] {       /* LOGO Attributes */
+/* logo */
+img[alt="LOGO"] {
         width: 90%;
         align-self:left;
         vertical-align: center;
-      }
-
-button {        /* describe a button */
+}
+/* button */
+button {        
         color: var(--pageBackground);
         background-color: var(--darkOfLogo);
         font-family: Arial, Helvetica, sans-serif;
@@ -22,51 +14,52 @@ button {        /* describe a button */
         border:0px;
         margin:0px;
 }
-
-button:hover {          /* describe a button upon mouse hover */
+/* button upon hover */
+button:hover {          
         color: var(--pageBackground);
         background-color: rgb(6, 89, 153);
         cursor: pointer;
 }
-
-
+/* toolbar container */
 .toolbarContainer {
-        /*display: flex;
-        justify-content: space-around;*/
+        /* alignment */
         justify-self: center;
-        height: 6%;
+        justify-content:space-between;
         margin:0%;
         padding-left: 5px;
         padding-right: 5px;
         margin-bottom: 20px;
 
+        height:6vw;
 
+        /* type of container */
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         column-gap:5px;
         padding-bottom: 5px;
         padding-top: 5px;
         align-items: center;
 
+        /* visuals */
         background-color: var(--toolbarBackground);
-        justify-content:space-between;
 
 }
 
-/* Mobile styles (max-width: 767px) */
+/* Mobile styles override */
 @media (max-width: 600px) {
 
-        img[alt="LOGO"] {       /* LOGO Attributes */
+        img[alt="LOGO"] {
                 width: 75%;
-              }
+                align-self: center;
+        }
         
-        button {        /* describe a button */
+        button {
                 height:90%;
                 font-size: 3vw;
         }
 
         .toolbarContainer {
-                height: 6%;
                 margin:0%;
                 padding-left: 5px;
                 padding-right: 5px;
@@ -74,6 +67,8 @@ button:hover {          /* describe a button upon mouse hover */
                 column-gap:5px;
                 padding-bottom: 5px;
                 padding-top: 5px;
+
+                height:50vw;
 
                 display: grid;
                 grid-template-columns: 1fr;
@@ -96,7 +91,7 @@ button:hover {          /* describe a button upon mouse hover */
         }
     }
     
-    /* Desktop/Tablet styles (min-width: 768px) */
+    /* Desktop/Tablet styles override */
     @media (min-width: 601px) {
     
     }

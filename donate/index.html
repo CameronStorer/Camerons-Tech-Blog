@@ -1,28 +1,44 @@
-<!-- This is the starting page for the website -->
-<!DOCTYPE html> <!-- Specify the type of document -->
-<html lang="en"> <!-- Specify the language of said document -->
+<!-- the website toolbar -->
+<!DOCTYPE html> <!-- html doc -->
+<html lang="en"> <!-- language -->
 
-<!-- This information pertains to the page's basic data -->
+<!-- basic page attributes -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cameron's Tech Journal</title>
-    <link rel="icon" href="../assets/icon.svg" type="image/svg">
+    <!-- page title and icon -->
+    <title>Cameron's Portfolio</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg">
+    <!-- import color scheme and toolbar formatting -->
+    <link rel="stylesheet" href="../formatting/colors.css">
+    <link rel="stylesheet" href="../formatting/toolbar.css">
     <link rel="stylesheet" href="../formatting/styles.css">
-    <script src="../scripts/include.js"></script>
+    <!-- page specific formatting -->
+    <link rel="stylesheet" href="about.css">
+</head>
 
-</head><body>
+<body>
+    <!-- container to hold toolbar buttons -->
+    <div class = "toolbarContainer">
+            <!-- This img will act as a hyperlink-->
+            <a href="https://cameronstorer.com/about" target="_parent">
+            <img alt="LOGO" src="../assets/CTJLogo.svg"></a>
+            <button id="about" > About</button>
+            <button id="blog"> Blog</button>
+            <button id="contact"> Contact</button>
+            <button id="donate"> Buy Me A <br/> Coffee</button>
+            <script src="../scripts/addToolbar.js"></script>
+    </div>
 
-    <!-- TOOLBAR -->
-    <script src="../scripts/addToolbar.js"></script>
-    <link rel="stylesheet" href="../toolbar/toolbar.css">
-    <div id="addToolbar"></div>
+<!-- page content-->
 
+<h1>Welcome to donate!</h1>
 
-    <h2>Welcome and enjoy your stay!</h2>
-    <a href="https://buymeacoffee.com/" target="_blank">Buy Me A Coffee</a>
-    <a href="https://crishbiskit-09.creator-spring.com/" target="_blank">Buy Some Merch</a>
-    <a href="https://www.patreon.com/" target="_blank">My Patreon</a>
+<div class="spacer"></div>
+
+<p>If you enjoy my work, please consider <a href="https://cameronstorer.com/donate">donating</a>. Anything is appreciated and helps support my efforts.</p>
+
+<div class="spacer"></div>
 
 </body>
 </html>
