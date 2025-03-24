@@ -8,10 +8,10 @@ This site serves a place for my creativity to thrive and for me to share things 
 - expanding my knowledge in the areas of **css**, **javascript**, **html**, and other website **formatting**/**hosting**/**upkeep*** areas
 
 ## **Sub Pages:**
-    - about
-    - blog
-    - contact
-    - donate
+- about
+- blog
+- contact
+- donate
 
 Future Plans:
     - more use of **javascript**
