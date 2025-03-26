@@ -11,7 +11,7 @@ This site serves a place for my creativity to thrive and for me to share things 
 ## **Sub Pages:**
 - about
 - blog
-- contact
+- socials
 - donate
 
 ## Future Plans:
