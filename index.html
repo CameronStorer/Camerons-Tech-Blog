@@ -1,17 +1,50 @@
-<!-- This is the starting page for the website -->
-<!DOCTYPE html>
-<html lang="en"> <!-- Specify the language of said document -->
+<!-- the website toolbar -->
+<!DOCTYPE html> <!-- html doc -->
+<html lang="en"> <!-- language -->
 
-<!-- This information pertains to the page's basic data -->
+<!-- basic page attributes -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- page title and icon -->
     <title>Cameron's Tech Journal</title>
-    
-    <script>
-       window.location.replace("https://blog.cameronstorer.com/blog");
-    </script>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg">
+    <!-- import color scheme and toolbar formatting -->
+    <link rel="stylesheet" href="formatting/colors.css">
+    <link rel="stylesheet" href="formatting/toolbar.css">
+    <link rel="stylesheet" href="formatting/styles.css">
+    <!-- page specific formatting -->
+    <!-- <link rel="stylesheet" href="about.css"> -->
+</head>
 
-</head><body>
-    <p>You are being redirected...</p>
-</body></html>
+<body>
+    <!-- container to hold toolbar buttons -->
+    <div class = "toolbarContainer">
+            <!-- This img will act as a hyperlink-->
+            <a alt="logo" href="https://blog.cameronstorer.com/blog" target="_parent">
+            <img alt="LOGO" src="assets/CTJLogo.svg"></a>
+            <div class = "buttons">
+            <button alt="toolbar" id="about" >About</button>
+            <button alt="toolbar" id="blog">Blog</button>
+            <button alt="toolbar" id="socials">Socials</button>
+            <button alt="toolbar" id="projects">Projects</button>
+            <button alt="toolbar" id="donate">Buy Me A Coffee</button>
+            <script src="scripts/addToolbar.js"></script>
+        </div>
+    </div>
+
+<!-- page content-->
+
+<h1>Welcome to blog!</h1>
+
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+
+<p>If you enjoy my work, please consider <a href="https://blog.cameronstorer.com/donate">donating</a>. Anything is appreciated and helps support my efforts.</p>
+
+<div class="spacer"></div>
+
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 // javascript to add button functionality
     // define possible button id's:
-    let buttonNames = ["about", "blog", "socials", "donate"];
+    let buttonNames = ["about", "blog", "socials", "projects", "donate"];
     // take action
     document.addEventListener("click", function(event) {
         if (event.target.tagName === "BUTTON") { //Ensure it's a button

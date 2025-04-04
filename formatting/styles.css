@@ -15,15 +15,7 @@ body, html {
     image-rendering: pixelated;*/
 }
 
-/* set the color of the body 
-body {
-    font-size: 1vw;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-
-}*/
-
-/* Adjust header 2 */
+/* Adjust header */
 h1 {
     text-align: center;
     font-size: 2vw;
@@ -44,7 +36,7 @@ p {
 }
   
 .spacer {
-    height:5%;
+    height:2.5vw;
 }
 
 /* Mobile styles (max-width: 767px) */
@@ -52,10 +44,10 @@ p {
 
 
     h1 {
-        font-size: 3vw;
+        font-size: 4.5vw;
     }
     p {
-        font-size: 2vw;
+        font-size: 3vw;
         width:80%;
     }
 
