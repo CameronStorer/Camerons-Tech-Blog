@@ -7,7 +7,7 @@
     document.addEventListener("click", function(event) {
         if (event.target.tagName === "BUTTON") { //Ensure it's a button
             if (buttonNames.includes(event.target.id)){ // Figure out which button
-                if (event.target.id != "blog"){
+                if (("" + event.target.id) != "blog"){
                     window.parent.location.href = "https://blog.cameronstorer.com/" + event.target.id;
                 } else {
                     window.parent.location.href = "https://blog.cameronstorer.com"
