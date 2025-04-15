@@ -1,16 +1,18 @@
 .socialContainer{
     /* alignment */
-    justify-content: center;
+    justify-items: center;
+    align-items: center;
     align-content: top;
+    margin:auto;
 
     /* type of container */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 1vw;
     width: 44%;
-    height:40vw;
+    height:28vw;
 
-    /* visuals */
+    /* visuals  */
     background-color: var(--darkOfLogo);
     border-radius:6%;
     border-style:groove;
@@ -21,40 +23,42 @@
 
 a[alt=social]{
     display:inline-block;
-    width: 12.1vw;
-    height:11.5vw;
+    width: 12.075vw;
+    height:12.075vw;
     margin: .5vw;
 }
 
 img[alt="social"] {
-    width:12.1vw;
-    height:11.5vw;
+    width:12.075vw;
+    height:12.075vw;
     user-select: none;
 }
 
 /* Mobile styles override */
 @media (max-width: 600px) {
 
-    img[alt="social"] {
-        width:15.4vw;
-        height:15.4w;
-    }
-
     a[alt=social]{
-        display:inline-block;
-        width:15.4vw;
-        height:15.4vw;
+        width: 20.125vw;
+        height:20.125vw;
+
 
     }
+
+    img[alt="social"] {
+        width: 100%;
+        height: 100%;
+
+    }
+
+
 
     .socialContainer{
     /* type of container */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 1vw;
-    margin-left:28%;
-    margin-right:28%;
-    height:60vw;
+    padding: .75vw;
+    height:75vw;
+    width: 60%;
 
 
     }

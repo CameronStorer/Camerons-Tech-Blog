@@ -22,6 +22,13 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    text-align: center;
+    font-size: 1.8vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
 
 /* set the color of the paragraph */
 p {
@@ -45,6 +52,9 @@ p {
 
     h1 {
         font-size: 4.5vw;
+    }
+    h2 {
+        font-size: 4.3vw;
     }
     p {
         font-size: 3vw;
