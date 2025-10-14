@@ -1,6 +1,6 @@
 ------
 
-# Cameron's Tech Blog | my personal blog
+# Cameron's Tech Blog
 
 ## Table of Contents
 
