@@ -25,7 +25,7 @@ This blog site is built to inform visitors about topics that I find intriguing:
   * **Blog Pages:** This site will be composed of blog pages, all accessible from a universal home page.
   ### Future skills to be added
   * **Simple Light & Dark Mode Toggle:** For users who prefer a darker or lighter site.
-  * **Dynamic Site:**Adding backend functionality for a more dynamic site.
+  * **Dynamic Site:** Adding backend functionality for a more dynamic site.
   * **Blog Page Tagging System:** A tagging system to group similar blog posts together based on similarity, allowing for more easy site traversal.
   * **Interactive Comments section:** A section for users to communicate their opinions and respond to one another.
   * **Log-in with Google / Discord (User Accounts):** The ability for users to access their previous comments and respond to comment replies.
