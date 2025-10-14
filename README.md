@@ -34,7 +34,7 @@ This blog site is built to inform visitors about topics that I find intriguing:
 
 ## Technologies Used
 
-This portfolio site is crafted using the foundational pillars of web development:
+This blog site is crafted using the foundational pillars of web development:
 
   * **Next.js (React Framework):** Used for static site generation (SSG)
   * **HTML & JavaScript:** HTML provides the structure and semantics, while JavaScript powers the interactivity.
