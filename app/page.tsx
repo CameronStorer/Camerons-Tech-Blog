@@ -20,12 +20,12 @@ const App = () => {
     <div className="bg-gray-900 text-gray-100 font-sans antialiased">
 
 
-              {/* --- WIP Warning --- */}
-                <section className="py-1 pb-0 bg-red-800">
-          <div className="container bg-red-800 w-screen px-4 sm:px-6 lg:px-8">
-            <h2 className="text-1xl text-center m-0 w-screen text-black"> This site is still in development</h2>
-          </div>
-        </section>
+      {/* --- WIP Warning --- */}
+      <section className="py-1 pb-0 bg-red-800">
+        <div className="container bg-red-800 m-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-1xl text-center m-0 text-black"> This site is still in development</h2>
+        </div>
+      </section>
 
 
       {/* --- Navigation Bar --- */}
