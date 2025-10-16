@@ -19,7 +19,6 @@ const App = () => {
   return (
     <div className="bg-gray-900 text-gray-100 font-sans antialiased">
 
-
       {/* --- WIP Warning --- */}
       <section className="py-1 pb-0 bg-red-800">
         <div className="container bg-red-800 m-auto px-4 sm:px-6 lg:px-8">
@@ -29,8 +28,8 @@ const App = () => {
 
 
       {/* --- Navigation Bar --- */}
-      <div className="bg-gray-800 text-[2.625rem] md:text-4xl m-auto font-bold 
-      font-serif text-red-500 py-2 mb-[-9] md:mb-[-12] text-center relative z-60"> 
+      <div className="bg-gray-800 text-[2.625rem] md:text-6xl m-auto font-bold 
+      font-serif text-red-500 py-4 mb-[-9] md:mb-[-12] text-center relative z-60"> 
       <a href="/">Cameron's Tech Blog</a></div>
       {/*<header className="bg-gray-800 shadow-xl sticky top-0 z-50">
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-5 grid items-center justify-center">
