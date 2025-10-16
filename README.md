@@ -1,6 +1,6 @@
 ------
 
-# CameronStorer.github.io
+# Cameron's Tech Blog
 
 ## Table of Contents
 
@@ -9,35 +9,36 @@
   * [Technologies Used](#technologies-used)
   * [How to View](#how-to-view)
   * [Contact](#contact)
-  * [License](#license)
 
 -----
 
 ## About
 
-Welcome to **CameronStorer.github.io**\! This repository hosts my personal portfolio website, designed to serve as a dynamic showcase of my professional journey, skills, and achievements. Here, you'll find a curated collection of my projects, detailing the technologies I've used, the challenges I've overcome, and the solutions I've engineered. My aim is to provide a clear and concise overview of my capabilities and dedication to software development.
+Welcome to **Cameron's Tech Journal**\! This repository hosts the source code for my open-source personal blog website, designed to hold articles that I write following my interests. Here, you will find blog posts discussing topics such as software development, cybersecurity, and general technology.
 
 -----
 
 ## Features
 
-This portfolio site is built to offer a seamless experience for visitors looking to learn more about my work:
+This blog site is built to inform visitors about topics that I find intriguing:
 
-  * **Project Gallery:** A dedicated section displaying key projects with descriptions, technologies used, and links to live demos or GitHub repositories.
-  * **About Me:** A brief introduction to my professional background, interests, and development philosophy.
-  * **Skills Overview:** A clear listing of my technical proficiencies and tools.
-  * **Interactive Elements:** Engaging UI/UX features to enhance user experience.
-  * **Responsive Design:** Optimized for viewing on various devices, from desktops to mobile phones.
+  * **Blog Pages:** This site will be composed of blog pages, all accessible from a universal home page.
+  ### Future skills to be added
+  * **Simple Light & Dark Mode Toggle:** For users who prefer a darker or lighter site.
+  * **Dynamic Site:** Adding backend functionality for a more dynamic site.
+  * **Blog Page Tagging System:** A tagging system to group similar blog posts together based on similarity, allowing for more easy site traversal.
+  * **Interactive Comments section:** A section for users to communicate their opinions and respond to one another.
+  * **Log-in with Google / Discord (User Accounts):** The ability for users to access their previous comments and respond to comment replies.
 
 -----
 
 ## Technologies Used
 
-This portfolio site is crafted using the foundational pillars of web development:
+This blog site is crafted using the foundational pillars of web development:
 
-  * **HTML:** Used for structuring the content and semantics of the web pages, ensuring a clear and accessible document flow.
-  * **CSS:** Employed for styling, layout, and bringing the visual design to life. This includes modern techniques like **Flexbox** and **Grid** to create robust and responsive layouts.
-  * **JavaScript:** Powers the interactive elements, handles dynamic content updates, and enhances the overall user experience.
+  * **Next.js (React Framework):** Used for static site generation (SSG)
+  * **HTML & JavaScript:** HTML provides the structure and semantics, while JavaScript powers the interactivity.
+  * **Tailwind CSS:** Employed for styling and design. It's a utility-first CSS framework that accelerates development by composing designs directly in the markup using pre-defined classes, ensuring a consistent and responsive visual style.
 
 -----
 
@@ -45,7 +46,7 @@ This portfolio site is crafted using the foundational pillars of web development
 
 This portfolio is hosted on GitHub Pages, and you can view it live in your web browser:
 
-1.  Simply navigate to: **`https://cameronstorer.com`**
+1.  Simply navigate to: **`https://blog.cameronstorer.com`**
 
 -----
 
