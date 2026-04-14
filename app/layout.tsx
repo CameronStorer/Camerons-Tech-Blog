@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cameron's Tech Blog",
-  description: "Cameron's Personal Blog Featuring Technological Topics",
+  title: "Cam's Tech Blog",
+  description: "Cam's Personal Blog Featuring Technological Topics",
 };
 
 export default function RootLayout({
